@@ -457,38 +457,3 @@ nav a {
     font-weight: bold;
 }
 
-/* MOBILE FIX */
-@media (max-width: 900px) {
-
-    nav {
-        display: none;   /* hide desktop menu on mobile */
-    }
-
-    #menu-btn {
-        display: block;
-        font-size: 32px;
-        color: white;
-        cursor: pointer;
-    }
-
-    .mobile-menu {
-        display: none;
-        flex-direction: column;
-        background: #003366;
-        width: 100%;
-        padding: 10px 0;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        z-index: 1000;
-    }
-
-    .mobile-menu a {
-        padding: 12px;
-        text-align: center;
-        color: white;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-        font-size: 20px;
-    }
-}
-
